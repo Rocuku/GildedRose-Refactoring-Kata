@@ -21,7 +21,7 @@ func main() {
 		&Item{"Conjured Mana Cake", 3, 6}, // <-- :O
 	}
 
-	days := 2
+	days := 7
 	var err error
 	if len(os.Args) > 1 {
 		days, err = strconv.Atoi(os.Args[1])
